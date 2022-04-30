@@ -1,0 +1,31 @@
+* {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+#navbar {
+    height: 80px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(172, 166, 166);
+}
+
+.left {
+    font-size: 32px;
+    margin-left: 50px;
+}
+
+.span {
+    color: rgb(66, 133, 244);
+}
+
+.option {
+    display: flex;
+    gap: 30px;
+    margin-right: 80px;
+}
+
+.option p:hover {
+    color: blue;
+    cursor: pointer;
+}
